@@ -185,10 +185,10 @@ export const projects = [
     id: "hotel-44rooms",
     title: "44-Room Hotel Electrical Installation – Asaba",
     summary:
-      "Piping, wiring, and fitting of electrical appliances for a 3-star 35-room hotel along Okpanam Road, Asaba.",
+      "Piping, wiring, and fitting of electrical appliances for a 4-star 44-room hotel along Okpanam Road, Asaba.",
     image: hotelhero,
     tags: ["Electrical", "Hospitality"],
-    metrics: ["35 rooms", "Full wiring & fittings"],
+    metrics: ["44 rooms", "Full wiring & fittings"],
     challenge:
       "The hotel required a safe, modern electrical installation to power all rooms and facilities.",
     solution:
