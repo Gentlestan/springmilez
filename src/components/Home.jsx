@@ -4,6 +4,7 @@ import StatBar from "./sections/StatBar";
 import CTA from "./sections/CTA";
 import heroImg from "../assets/images/herosolar.jpeg";
 import ServiceCard from "./sections/ServiceCard";
+import { Link } from "react-router-dom";
 //import ServiceCard from "../ServiceCard";
 
 export default function Home() {
@@ -20,12 +21,13 @@ export default function Home() {
               We design, sell, and install high-performance systems for homes and industries—built to last, tailored to your needs.
             </p>
             <div className="mt-6 flex gap-3">
-              <a href="/services" className="bg-amber-500 text-stone-900 px-5 py-2 rounded-md font-semibold hover:bg-amber-400 transition">
+              <Link to="/services" className="bg-amber-500 text-stone-900 px-5 py-2 rounded-md font-semibold hover:bg-amber-400 transition">
                 Explore Services
-              </a>
-              <a href="/contact" className="border border-white/30 px-5 py-2 rounded-md hover:bg-white/10 transition">
+              </Link>
+              <Link to="/contact" className="border border-white/30 px-5 py-2 rounded-md hover:bg-white/10 transition"
+              >
                 Get a Quote
-              </a>
+              </Link>
             </div>
           </div>
           <div className="rounded-xl bg-white/5 backdrop-blur p-6">
