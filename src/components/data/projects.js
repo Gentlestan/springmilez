@@ -20,7 +20,7 @@ import cctvhero from "../../assets/images/cctvhero.jpg";
 import cctv from "../../assets/images/cctv.jpg";
 import cctvwire from "../../assets/images/cctv-wire.jpeg";
 import hik from "../../assets/images/hik.jpeg";
-import ipcam from "../../assets/images/32-channel-nvr-camera-system.jpg";
+import ipcam from "../../assets/images/nvr-cam.jpg";
 import ipcam1 from "../../assets/images/ipcam1.jpeg";
 // Sample project data
 export const projects = [
